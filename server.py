@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Directory to store uploaded files
-uploads_dir = 'E:/CV demo/uploads/'
+uploads_dir = 'uploads/'
 if not os.path.exists(uploads_dir):
     os.makedirs(uploads_dir)
 
